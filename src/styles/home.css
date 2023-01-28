@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0%;
+
+}
+
+@font-face {
+    font-family: 'Logo';
+    src: url('/src/fonts/Harlequin-Mp8n.ttf');
+}
+
+@font-face {
+    font-family: "Butterbean";
+    src: url("/src/fonts/Butterbean-jELd9.otf");
+}
+
+
+#content {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.nav {
+
+    background-color: #999999;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    font-family: 'Logo';
+    color: white;
+    font-size: 56px;
+    letter-spacing: 2px;
+}
+
+.navOptions {
+    font-family: "Butterbean";
+    font-size: 25px;
+    display: flex;
+    gap: 25px;
+}
+
+
+.body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333333;
+}
+
+.active {
+    background-image: url(/src/images/FOOD4.jpg);
+    background-size: cover;
+
+
+}
+
+.centerBox {
+    font-family: 'Butterbean';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+
+}
+
+.motto {
+    font-family: 'Logo';
+    font-size: 65px;
+    color: #d10000
+}
+
+.text {
+    padding-top: 15px;
+    font-size: 15px;
+    color: #d10000;
+}
+
+.contactPage {
+    display: block;
+    color: black;
+}
+
+.menuPage {
+    padding-bottom: 50px;
+
+}
+
+.appetizerContainer {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 50px;
+
+}
+
+.containerContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.itemContainer {
+    border: 3px solid white;
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.containerName {
+    font-family: 'Logo';
+    color: white;
+    font-size: 50px;
+
+
+}
+
+h1 {
+    font-family: 'Logo';
+}
+
+h3 {
+    color: white;
+    font-family: 'Butterbean';
+}
+
+img {
+    border-radius: 11px 11px 0px 0px;
+    aspect-ratio: 3/2;
+    height: 250px;
+    width: 300px;
+    border-bottom: 3px solid white;
+}
+
+.hr {
+    border: 2px solid white;
+}
+
+button {
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    border: 0.1em solid white;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #FFFFFF;
+    text-align: center;
+    transition: all 0.2s;
+    background-color: #999999;
+    font-family: 'Logo';
+}
+
+
+button:hover {
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+.contactPage {
+    text-align: center;
+    display: flex;
+    gap: 50px;
+    color: white;
+
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    border: 2px solid white;
+    padding: 15px;
+    width: 400px;
+
+}
+
+.boxName {
+    font-size: 30px;
+    font-family: 'Logo';
+    letter-spacing: 2px;
+}
+
+.boxContent {
+    font-family: 'Butterbean';
+}
